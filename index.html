@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mi Aplicación</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #ffffff; }
+        iframe {
+            position: absolute;
+            top: -46px; /* Ajuste para esconder el banner de Google */
+            left: 0;
+            width: 100%;
+            height: calc(100% + 46px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <iframe 
+        src="TU_URL_DE_APPS_SCRIPT_AQUI" 
+        allow="camera; geolocation; microphone; autoplay">
+    </iframe>
+</body>
+</html>
